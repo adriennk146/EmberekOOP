@@ -34,6 +34,13 @@ public class Emberek {
     }
 
     public int GetHonapbanDb(int ho){
-        return 2;
+        int db =0;
+        for(Ember ember:emberek)
+        {
+            if(ember.GetSzulHo()==ho){
+                db++;
+            }
+        }
+        return db;
     }
 }

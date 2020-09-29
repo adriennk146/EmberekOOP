@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         Emberek emberek = new Emberek("emberek.txt");
-
+        System.out.println(emberek.GetHonapbanDb(7));
 
 
     }
